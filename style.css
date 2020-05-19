@@ -1,0 +1,638 @@
+*{
+    font-family: arial;
+}
+
+h2{
+    font-size: 40px;
+}
+body{
+    background: #1BBC9C;
+}
+header{
+    background-color: #2D3E50;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    
+}
+footer{
+    background: #1B252F;
+    position: absolute;
+    top: 348%;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.burger img{
+    max-width: 20px;
+    
+}
+.wrapper h2{
+    font-size: 30px;
+}
+
+.wrapper{
+    /* position: absolute;
+    left: 80px;
+    right: 80px;
+    top: 0; */
+    margin: auto 80px;
+    
+    /* display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center; */
+    color: #ffffff;
+    
+}
+.wrapper h2{
+    display: inline-block;
+    
+}
+.wrapper .menu{
+    display: inline-block;
+}
+.wrapper .menu ul li{
+    display: inline;
+    padding: 0 8px;
+    white-space: nowrap;
+    margin: 0;
+}
+.menu ul{
+    padding-left: 450px;
+}
+
+.wrapper2{
+    background: white;
+    padding: 0px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #2D3E50;
+    
+}
+.wrapper3{
+    position: absolute;
+    top: 190%;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: #ffffff;
+    text-align: center;
+   
+}
+.wrapper4{
+    background: white;
+    padding: 0px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 260%;
+    /* text-align: center; */
+    /* display: flex;
+    flex-flow: column;
+    align-items: center; */
+    color: #2D3E50;
+}
+.wrapper5{
+    background: #2D3E50;
+    padding: 0px;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 331%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+    
+}
+.wrapper5 p{
+    font-size: 15px;
+}
+
+
+
+.wrapper5 .free span{
+    color: #1BBC9C;
+}
+.wrapper4 h2{
+    text-align: center;
+}
+.wrapper4 form {
+    padding: 10px 30%;
+    
+}
+.wrapper4 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 120%;
+}
+.wrapper4 textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 120%;
+}
+.wrapper4 input[type="submit"]{
+    width: 90px;
+    padding: 10px;
+    background: #1BBC9C;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.wrapper4 .ls4{
+    /* display: flex;
+    padding: 0;
+    margin: 0; */
+    display: inline-block;
+    padding: 0 40%;
+    margin: auto 45px;
+    
+   
+}
+.wrapper4 .ls4 img{
+    margin: auto 0px;
+    float: left;
+    
+}
+.wrapper4 .ls4 hr{
+    height: 0.5px;
+    float: left;
+}
+
+form button {
+    background-repeat: no-repeat;
+    background: #1BBC9C;
+    color: #ffffff;
+    padding: 5px;
+   border-width: 1px;
+   border-radius: 5px;
+    
+}
+.wrapper3 .Text2 p{
+    line-height: 25px;
+    columns: 2;
+    text-align: left;
+    column-gap: 40px;
+}
+.ls3{
+    display: flex;
+    
+}
+.ls3 hr{
+    height: 0px;
+}
+.ls3 img{
+    max-width: 20px;
+    margin: auto 5px;
+}
+.wrapper3 h2{
+    font-size: 40px;
+    padding: 0;
+    margin: 10px;
+}
+
+.wrapper2 h2{
+    font-size: 40px;
+}
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1BBC9C;
+}
+.pics:hover .overlay{
+    opacity: 0.7;
+}
+.wrapper2 .pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper2 .pics img{
+    max-width: 25%;
+    padding: 20px;
+    
+}
+
+
+.ls2 img{
+    max-width: 20px;
+    margin: auto 5px;
+    padding: 0;
+    
+}
+.wrapper2 .ls2{
+    display: flex;
+}
+.wrapper2 .ls2 hr{
+    height: 0.2px;
+}
+ .menu ul{
+    display: inline-block;
+    
+    /* justify-content: space-between; */
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.ut img{
+    max-width: 20%;
+    /* padding: 20px; */
+    margin: 120px;
+}
+.ls img{
+    max-width: 20px;
+}
+.ut{
+    margin: 80px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.ut h1{
+    font-size: 50px;
+    margin: 0;
+    
+}
+.ut .ls{
+    display: flex;
+       
+}
+.ut .ls img{
+    margin: auto 10px;
+}
+.ut .ls hr{
+    height: 0.3px;
+}
+.text ul{
+    display: flex;
+    
+    list-style-type: none;
+
+}
+.text ul li{
+    margin: auto 5px;
+    
+}
+.text ul hr{
+    height: 0.1%;
+}
+
+/* media queries */
+
+/* tablets */
+@media screen and (max-width: 780px)
+{ 
+    footer{
+        top: 355%;
+    }
+    .wrapper5 {
+        position: absolute;
+        top: 341%;
+    }
+    .wrapper5 ul{
+        margin: 0;
+    }
+    
+    
+    .wrapper4 {
+        position: absolute;
+        top:270% ;
+    }
+    .wrapper4 .ls4{
+        display: inline-block;
+        margin: 0;
+        padding: 0 260px;
+    }
+    .wrapper4 .ls4 img{
+        float: left;
+    }
+    .wrapper4 .ls4 hr{
+        float: left;
+    }
+    .wrapper3{
+        position: absolute;
+        top: 220%;
+    }
+    .wrapper3 .Text2{
+        margin: auto 15px;
+    }
+    .wrapper2 .pics img{
+        max-width: 40%;
+
+    }
+    
+        .burger {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 16px;
+        background-color:#1BBC9C; 
+        cursor: pointer;
+        padding: 0 15px;
+        margin: 10px 550px;
+        position: absolute;
+        top: 13px;
+        
+        
+    }
+    .burger img{
+        /* max-width: 25px; */
+        height:20px ;
+        padding: 10px;
+        /* margin: 13px auto; */
+        order: 1;
+    }
+
+    .burger h2{
+        /* float: left; */
+        font-size: 20px;
+        margin: 10px auto;
+                
+    }
+   .back{
+       background-color: #1B252F;
+       display: inline-block;
+       border-radius: 10px;
+       padding: 10px;
+       margin: 0;
+       height: 100px;
+       
+       
+       
+   }
+
+    .wrapper ul{
+        overflow: hidden;
+        height: 0;
+        /* display: block; */
+        /* background: #1BBC9C;
+        width: 20%; */
+        margin-left: 15%;
+        margin-top: 5px;
+        padding-top: 0;
+    }
+
+    .wrapper nav ul.open{
+        height: auto;
+        
+
+    }
+    .wrapper li:hover{
+        color: #1BBC9C;
+        cursor: pointer;
+        
+        
+      
+    }
+
+
+    /* .wrapper nav ul li{
+      
+        text-align: center;
+        width: 100%;
+        padding: 25px ;
+        font-size: 1em;
+
+    } */
+    .wrapper nav{
+        text-align: center;
+    }
+    header{
+        padding: 0;
+        margin: 0;
+        height: 90px;
+    }
+        .wrapper{
+            margin: auto 30px;
+            padding: 0;
+        }
+        /* .menu ul{
+            padding: 0;
+            margin: auto 0px;
+        } */
+        /* .wrapper h2
+        {
+            font-size: px;
+            white-space: nowrap;
+            
+        } */
+        .ut h1{
+            text-align: center;
+        }
+    
+        .ut img{
+            max-width: 80%;
+            margin: 60px;
+        }  
+        .ls img{
+            max-width: 20px;
+            
+        }  
+        .text ul li{
+            white-space: nowrap;
+        }
+    
+}
+
+
+    
+
+/* mobile */
+@media screen and (max-width:480px)
+{ footer{
+    top: 510%;
+}
+    .wrapper5{
+        position: absolute;
+        top: 470%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        
+    }
+    .wrapper5 ul h3{
+        text-align: center;
+    }
+
+    
+    .wrapper4{
+        position: absolute;
+        top:400% ;
+        padding: 5px;
+    }
+    .wrapper3{
+        position: absolute;
+        top: 339%;
+    }
+    .wrapper4 .ls4{
+        display: inline-block;
+        margin: 0;
+        padding: 0 130px;
+    }
+    .wrapper4 .ls4 img{
+        float: left;
+    }
+    .wrapper4 .ls4 hr{
+        float: left;
+    }
+    .wrapper4 form{
+        padding: 0 50px;
+        
+    }
+    .wrapper4 form input{
+        width: 100%;
+    }
+    .wrapper4 form textarea{
+        width: 100%;
+    }
+    .wrapper3 .Text2{
+        margin: auto 15px;
+    
+    }
+    .wrapper3 .Text2 p{
+        column-count: 1;
+    }
+    .wrapper2 .pics img{
+       max-width: 90%;
+    }
+   
+     .burger {
+        height: 40px;
+        border-radius: 16px;
+        background-color:#1BBC9C; 
+        cursor: pointer;
+        /* margin-left: 60%; */
+        margin: 1% 60%;
+         
+        
+    }
+    
+    .wrapper ul{
+        overflow: hidden;
+        height: 0;
+        display: block;
+        padding-left: 220px;
+        width: 35%;
+
+        
+    }
+    
+    .wrapper nav ul.open{
+        height: auto;
+
+    }
+    .wrapper nav ul li{
+        float: right;
+        text-align: center;
+        width: 100%;
+        padding: 15px ;
+        font-size: 1.4em;
+
+    }
+    
+    .wrapper nav{
+        text-align: center;
+    }
+    header{
+        max-width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        padding: 5px;
+        height: 60px;
+    }
+    .wrapper{
+        font-size: 10px;
+    }
+    .wrapper h2{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    .ut{
+        margin: 80px auto;
+    }
+    .ut h1{
+        font-size: 40px;
+    }
+    .ut img{
+        max-width: 180px;
+    }
+    .ls img{
+        max-width: 20px;
+    }
+    
+    .text ul li{
+        font-size: 15px;
+    }
+    .text ul hr{
+        height: 0.01px;
+    }
+    .text ul{
+        text-align: center;
+        padding: 0 25px;
+    }
+    
+} 
+@media screen and (min-width:781px)
+{
+    .pics img [alt: 1;]{
+        border-radius: 5px;
+    }
+    .burger h2{
+        overflow: hidden;
+        height: 0;
+    }
+    .burger img{
+        overflow: hidden;
+        height: 0;
+    }
+    nav ul{
+        white-space: nowrap;
+        padding: 0 20%;
+        margin: auto 30%;
+
+        
+    }
+    header{
+        height: 90px;
+    }
+    .wrapper3{
+        position: absolute;
+        top: 210%;
+    }
+    .wrapper5{
+        position: absolute;
+        right: 0;
+        top: 333%;
+    }
+
+}
+
